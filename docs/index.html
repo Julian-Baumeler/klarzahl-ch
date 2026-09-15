@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Klarzahl — Geld einziehen ohne Mahnlauf</title>
+  <meta name="description" content="Klarzahl ist die Schweizer Schicht zwischen Fakturierung und Bank: QR-Rechnung, Mahnung und camt-Abgleich — ohne Ihre FiBu zu ersetzen.">
+  <meta name="author" content="Adrian Frei, Klarzahl">
+  <meta name="theme-color" content="#0F3D2E">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://klarzahl.ch/">
+  <meta property="og:title" content="Klarzahl — Geld einziehen ohne Mahnlauf">
+  <meta property="og:description" content="Liquidität ohne Debitoren-Jagd. QR raus, Mahnung wenn nötig, Zahlungseingang einmal verbuchen.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_CH">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#top" aria-label="Klarzahl Startseite">
+        <svg class="logo-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <rect width="32" height="32" rx="6" fill="#0F3D2E"/>
+          <path d="M8 10h6.2c2.9 0 4.8 1.7 4.8 4.1 0 1.7-.9 3-2.4 3.6L20.5 22h-3.1l-3.5-3.9H11V22H8V10zm3 5.7h3c1.4 0 2.2-.7 2.2-1.8S15.4 12.2 14 12.2h-3v3.5z" fill="#F7F6F2"/>
+          <circle cx="23.5" cy="21.5" r="2.2" fill="#C4A35A"/>
+        </svg>
+        Klarzahl
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menü öffnen">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Hauptnavigation">
+        <a href="#problem">Problem</a>
+        <a href="#loesung">Lösung</a>
+        <a href="#fuer-wen">Für wen</a>
+        <a href="#aufteilung">Aufteilung</a>
+        <a class="btn btn-primary btn-nav" href="#kontakt">Gespräch vereinbaren</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inhalt">
+    <!-- 1. Hero -->
+    <section id="top" class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="hero-kicker">Schweizer Invoice-to-Cash</p>
+          <h1>Geld einziehen ohne Mahnlauf</h1>
+          <p class="hero-lead">
+            Liquidität ohne Debitoren-Jagd. Klarzahl sitzt zwischen Ihrer Fakturierung
+            (bexio, Abacus) und der Bank — wir ersetzen keine Rechnungssoftware.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="#kontakt">Gespräch vereinbaren</a>
+            <a class="btn btn-ghost btn-lg" href="#loesung">Demo ansehen</a>
+          </div>
+          <p class="hero-note">
+            QR raus · Mahnung wenn nötig · Zahlungseingang einmal verbuchen via Referenz-Match.
+          </p>
+        </div>
+
+        <aside class="hero-card" aria-label="Ablauf in vier Schritten">
+          <p class="hero-card-label">Der Ablauf</p>
+          <ol class="flow-list">
+            <li>
+              <span class="flow-num" aria-hidden="true">1</span>
+              <div>
+                <strong>Rechnung bleibt bei Ihnen</strong>
+                <span>bexio / Abacus — unverändert</span>
+              </div>
+            </li>
+            <li>
+              <span class="flow-num" aria-hidden="true">2</span>
+              <div>
+                <strong>QR-Rechnung nativ</strong>
+                <span>Swiss QR-Bill, AdrTp S</span>
+              </div>
+            </li>
+            <li>
+              <span class="flow-num" aria-hidden="true">3</span>
+              <div>
+                <strong>Debitoren &amp; Mahnung</strong>
+                <span>Frisch, fällig, überfällig — klar</span>
+              </div>
+            </li>
+            <li>
+              <span class="flow-num" aria-hidden="true">4</span>
+              <div>
+                <strong>Bankabgleich zurück</strong>
+                <span>camt.053 / .054 → FiBu</span>
+              </div>
+            </li>
+          </ol>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 2. Problem -->
+    <section id="problem" class="section" aria-labelledby="problem-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="section-eyebrow">Das Problem</p>
+          <h2 id="problem-title">B2B-Zahlungen kommen zu spät — und das kostet Zeit</h2>
+          <p class="section-lead">
+            Schweizer Lieferanten kennen den Loop: Rechnung raus, warten, nachfragen,
+            mahnen, manuell verbuchen. Klarzahl nimmt Ihnen den Mahnlauf ab.
+          </p>
+        </header>
+
+        <div class="stats" role="list">
+          <article class="stat" role="listitem">
+            <p class="stat-value">94&nbsp;%</p>
+            <p class="stat-label">der Schweizer Firmen berichten von verspäteten B2B-Zahlungen</p>
+          </article>
+          <article class="stat" role="listitem">
+            <p class="stat-value">~⅓</p>
+            <p class="stat-label">der Schweizer B2B-Rechnungen sind überfällig</p>
+          </article>
+          <article class="stat" role="listitem">
+            <p class="stat-value">77 Tage</p>
+            <p class="stat-label">Arbeitszeit pro Jahr für das Nachfassen (2025)</p>
+          </article>
+          <article class="stat" role="listitem">
+            <p class="stat-value">17 Tage</p>
+            <p class="stat-label">durchschnittliche Verspätung gegenüber dem Fälligkeitsdatum</p>
+          </article>
+        </div>
+        <p class="stat-source">
+          Quellen: Branchenstudien zu Zahlungsverhalten CH/EU (u.&nbsp;a. Atradius / Intrum Payment Reports). Zahlen gerundet.
+        </p>
+      </div>
+    </section>
+
+    <!-- 3. Lösung -->
+    <section id="loesung" class="section" aria-labelledby="loesung-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="section-eyebrow">Die Lösung</p>
+          <h2 id="loesung-title">Vier Schritte. Eine Schicht. Kein Systemwechsel.</h2>
+          <p class="section-lead">
+            Nicht «noch eine Rechnungssoftware». Sondern: Geld einziehen ohne Nachjagd —
+            mit den Schienen, die in der Schweiz wirklich zählen.
+          </p>
+        </header>
+
+        <div class="steps">
+          <article class="step">
+            <span class="step-num" aria-hidden="true">1</span>
+            <h3>Rechnung bleibt in bexio / Abacus</h3>
+            <p>
+              Sie fakturieren weiter wie bisher. Klarzahl übernimmt den offenen Posten —
+              ohne Migration, ohne doppelte Stammdaten.
+            </p>
+          </article>
+          <article class="step">
+            <span class="step-num" aria-hidden="true">2</span>
+            <h3>QR-Rechnung</h3>
+            <p>
+              Native Swiss QR-Bill mit strukturierter Adresse (AdrTp&nbsp;S). Sauber für
+              Banken und Debitoren — keine Bastellösung.
+            </p>
+          </article>
+          <article class="step">
+            <span class="step-num" aria-hidden="true">3</span>
+            <h3>Debitoren &amp; Mahnung</h3>
+            <p>
+              Fristen, Erinnerungen und Mahnstufen nach Ihren Regeln. Weniger Telefonate,
+              klarer Stand der offenen Posten.
+            </p>
+          </article>
+          <article class="step">
+            <span class="step-num" aria-hidden="true">4</span>
+            <h3>Bankabgleich (camt) zurück in die FiBu</h3>
+            <p>
+              camt.053 / .054 mit strukturiertem Referenz-Matching. Zahlungseingang
+              einmal verbuchen — nicht manuell suchen.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Für wen -->
+    <section id="fuer-wen" class="section" aria-labelledby="fuer-wen-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="section-eyebrow">Für wen</p>
+          <h2 id="fuer-wen-title">AR, CFO und Debitorenwesen bei Schweizer Lieferanten</h2>
+          <p class="section-lead">
+            Dort, wo Volumen und Zahlungsziele den Alltag prägen — und wo jede Woche
+            Nachfassen Liquidität und Nerven kostet.
+          </p>
+        </header>
+
+        <div class="audience">
+          <article class="audience-card">
+            <h3>Bau</h3>
+            <p>
+              Teilrechnungen, Abschlagszahlungen, lange Ketten. Offene Posten sichtbar halten,
+              ohne dass die Baustelle den Debitorenprozess diktiert.
+            </p>
+            <span class="audience-role">Debitorenwesen · Projektcontrolling</span>
+          </article>
+          <article class="audience-card">
+            <h3>Gewerbe &amp; Handel</h3>
+            <p>
+              Viele Kunden, viele Rechnungen, knappe Margen. QR raus, Zahlungseingang matchen,
+              Mahnung nur wenn nötig.
+            </p>
+            <span class="audience-role">AR · Buchhaltung</span>
+          </article>
+          <article class="audience-card">
+            <h3>Dienstleistungen</h3>
+            <p>
+              Retainer, Projektabschlüsse, wiederkehrende Positionen. Liquidität planen,
+              statt hinter Zahlungen herzulaufen.
+            </p>
+            <span class="audience-role">CFO · Finance Ops</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Was bleibt / was Klarzahl baut -->
+    <section id="aufteilung" class="section" aria-labelledby="aufteilung-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="section-eyebrow">Aufteilung</p>
+          <h2 id="aufteilung-title">Was bei Ihnen bleibt — was Klarzahl baut und betreibt</h2>
+          <p class="section-lead">
+            Klare Grenze: Fakturierung und FiBu bleiben Ihr System. Invoice-to-Cash ist unseres.
+          </p>
+        </header>
+
+        <div class="split">
+          <article class="split-card">
+            <h3>Bleibt bei Ihnen</h3>
+            <ul class="check-list">
+              <li>
+                <svg class="check" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Fakturierung in bexio, Abacus oder Ihrem ERP
+              </li>
+              <li>
+                <svg class="check" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Kundenstammdaten und Artikel
+              </li>
+              <li>
+                <svg class="check" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Finanzbuchhaltung und Abschluss
+              </li>
+              <li>
+                <svg class="check" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Bankbeziehung und Konten
+              </li>
+            </ul>
+          </article>
+          <article class="split-card accent">
+            <h3>Klarzahl baut &amp; betreibt</h3>
+            <ul class="check-list">
+              <li>
+                <svg class="check" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Swiss QR-Bill (AdrTp&nbsp;S) und Versand
+              </li>
+              <li>
+                <svg class="check" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Offene-Posten-Übersicht und Mahnwesen
+              </li>
+              <li>
+                <svg class="check" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                camt.053 / .054 und Referenz-Matching
+              </li>
+              <li>
+                <svg class="check" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Rückbuchung in Ihre FiBu — einmal, sauber
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Honesty -->
+    <section id="ehrlichkeit" class="section" aria-labelledby="ehrlichkeit-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="section-eyebrow">Klartext</p>
+          <h2 id="ehrlichkeit-title">Echte Schienen vor bunten Integrationen</h2>
+        </header>
+        <div class="honesty">
+          <p>
+            <strong>Wir verkaufen keine Zauber-API.</strong>
+            Klarzahl baut auf dem, was in der Schweiz verbindlich ist:
+            QR-Rechnung, strukturierte Referenzen, camt-Auszüge.
+            Integrationen zu bexio und Abacus sind Werkzeug — nicht das Produkt.
+            Wenn etwas manuell bleiben muss, sagen wir das. Lieber ein ehrlicher
+            Handgriff als eine Integration, die nur in der Demo funktioniert.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Contact / CTA -->
+    <section id="kontakt" class="section" aria-labelledby="kontakt-title" style="border-bottom: none;">
+      <div class="wrap">
+        <div class="contact-box">
+          <div>
+            <p class="section-eyebrow">Nächster Schritt</p>
+            <h2 id="kontakt-title">Gespräch vereinbaren</h2>
+            <p>
+              30 Minuten mit Adrian Frei: Ihr Debitorenprozess, Ihre Systeme,
+              ob Klarzahl passt. Kein Pitch-Deck-Marathon.
+            </p>
+            <div class="hero-actions" style="margin-bottom: 0;">
+              <a class="btn btn-primary btn-lg" href="mailto:adrian@klarzahl.ch?subject=Gespräch%20Klarzahl">E-Mail an Adrian</a>
+              <a class="btn btn-ghost btn-lg" href="mailto:adrian@klarzahl.ch?subject=Demo%20ansehen">Demo ansehen</a>
+            </div>
+          </div>
+          <ul class="contact-meta">
+            <li>
+              <span>Kontakt</span>
+              <a href="mailto:adrian@klarzahl.ch">adrian@klarzahl.ch</a>
+            </li>
+            <li>
+              <span>Stimme</span>
+              Adrian Frei, CEO
+            </li>
+            <li>
+              <span>Standort</span>
+              Zürich / Schweiz
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="footer-brand">Klarzahl · Produkt von Concrete · Schweiz</p>
+      <p>
+        <a href="mailto:adrian@klarzahl.ch">adrian@klarzahl.ch</a>
+        · Zürich
+      </p>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
